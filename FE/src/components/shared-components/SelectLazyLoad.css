@@ -1,0 +1,102 @@
+@keyframes dropdownAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(-8px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes itemAppear {
+    0% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes searchAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes footerAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes checkAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-dropdown {
+    animation: dropdownAppear 0.2s ease-out forwards;
+}
+
+
+
+.animate-search-appear {
+    animation: searchAppear 0.25s ease-out 0.1s forwards;
+    opacity: 0;
+}
+
+.animate-footer-appear {
+    animation: footerAppear 0.3s ease-out 0.15s forwards;
+    opacity: 0;
+}
+
+.animate-check-appear {
+    animation: checkAppear 0.2s ease-out forwards;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollbar-thumb-gray-300::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 3px;
+}
+
+.scrollbar-track-gray-100::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+}

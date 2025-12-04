@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CdsService\**" />
+    <Compile Remove="Common\ObjectService\**" />
+    <Compile Remove="GroupRoleService\**" />
+    <EmbeddedResource Remove="CdsService\**" />
+    <EmbeddedResource Remove="Common\ObjectService\**" />
+    <EmbeddedResource Remove="GroupRoleService\**" />
+    <None Remove="CdsService\**" />
+    <None Remove="Common\ObjectService\**" />
+    <None Remove="GroupRoleService\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.10.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.7" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.21.0" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
+    <PackageReference Include="MicrosoftOfficeCore" Version="15.0.0" />
+    <PackageReference Include="MimeKit" Version="4.10.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\N.Model\N.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>

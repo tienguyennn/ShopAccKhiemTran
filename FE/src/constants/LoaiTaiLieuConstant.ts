@@ -1,0 +1,50 @@
+import { createConstant } from "./Constant";
+
+const LoaiTaiLieuConstant = createConstant(
+  {
+    TaiLieuDonVi: "TaiLieuDonVi",
+    FileDuLieuDanhMuc: "FileDuLieuDanhMuc",
+    IconModule: "IconModule",
+    FileDinhKemPhanAnh: "FileDinhKemPhanAnh",
+    FileAnhCCCD: "FileAnhCCCD",
+    ImageTinTuc: "ImageTinTuc",
+    QLTinTuc: "QLTinTuc",
+    QLMangXaHoi: "QLMangXaHoi",
+    QLPage_Component: "QLPage_Component",
+    ProductImage: "ProductImage",
+    WebTMDTBanHang: "WebTMDTBanHang",
+    ProductImageSearch: "ProductImageSearch",
+    KEKHAI_DICHVUCONG: "KEKHAI_DICHVUCONG",
+    HOSODICHVUCONG: "HOSODICHVUCONG",
+    LOGO: "LOGO",
+    HS_Export_Declaration: "HS_Export_Declaration",
+    HS_Route_Transportation: "HS_Route_Transportation",
+    MAUCO: "MAUCO",
+    FileVanBanPhapQuy: "FileVanBanPhapQuy",
+    THUMBBAIVIET: "THUMBBAIVIET",
+  } as const,
+  {
+    TaiLieuDonVi: { displayName: "" },
+    FileDuLieuDanhMuc: { displayName: "" },
+    IconModule: { displayName: "" },
+    FileDinhKemPhanAnh: { displayName: "" },
+    FileAnhCCCD: { displayName: "" },
+    ImageTinTuc: { displayName: "" },
+    QLTinTuc: { displayName: "" },
+    QLMangXaHoi: { displayName: "" },
+    QLPage_Component: { displayName: "" },
+    ProductImage: { displayName: "" },
+    WebTMDTBanHang: { displayName: "" },
+    ProductImageSearch: { displayName: "" },
+    KEKHAI_DICHVUCONG: { displayName: "" },
+    HOSODICHVUCONG: { displayName: "" },
+    LOGO: { displayName: "" },
+    HS_Export_Declaration: { displayName: "" },
+    HS_Route_Transportation: { displayName: "" },
+    MAUCO: { displayName: "" },
+    FileVanBanPhapQuy: { displayName: "" },
+    THUMBBAIVIET: { displayName: "" },
+  }
+);
+
+export default LoaiTaiLieuConstant;
