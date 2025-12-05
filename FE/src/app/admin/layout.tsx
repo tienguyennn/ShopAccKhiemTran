@@ -112,7 +112,7 @@ export default function RootLayout({
       locale={locale}
       theme={{
         token: {
-          colorPrimary: "#ce1127",
+          colorPrimary: "#1877F2",
           fontFamily: `var(--font-inter), system-ui`,
         },
         components: {

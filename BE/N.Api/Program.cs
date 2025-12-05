@@ -15,6 +15,7 @@ internal class Program
         //.CreateLogger();
         //builder.Host.UseSerilog();
 
+
         builder.WebHost.ConfigureKestrel(serverOptions =>
         {
             serverOptions.ConfigureHttpsDefaults(httpsOptions =>

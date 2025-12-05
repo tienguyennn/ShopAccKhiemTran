@@ -34,7 +34,7 @@ namespace N.Api
             });
 
 
-
+            services.AddSwaggerGen();
             services.AddDependencyInjection();
 
             services.AddIdentity<AppUser, AppRole>()
