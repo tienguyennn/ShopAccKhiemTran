@@ -140,7 +140,27 @@ const SideNavContent: React.FC<SideNavContentProps> = ({
 };
 
 const MenuContent: React.FC = () => {
-  return <SideNavContent />;
+  return (
+    <>
+      <SideNavContent />
+      <div style={{ marginTop: 8, paddingLeft: 8, paddingRight: 8 }}>
+        <Link href="/admin/QLAccount" style={{ textDecoration: 'none' }}>
+          <div
+            style={{
+              padding: '8px 12px',
+              borderRadius: 4,
+              color: '#000',
+              fontSize: 14,
+              fontWeight: 500,
+              hover: { backgroundColor: '#f0f0f0' }
+            }}
+          >
+            📱 Quản lý Account
+          </div>
+        </Link>
+      </div>
+    </>
+  );
 };
 
 export default MenuContent;
