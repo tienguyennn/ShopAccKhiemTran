@@ -151,39 +151,39 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf)
-    format("truetype");
+    format('truetype');
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf)
-    format("truetype");
+    format('truetype');
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)
-    format("truetype");
+    format('truetype');
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf)
-    format("truetype");
+    format('truetype');
 }
 
 .h1,
@@ -477,8 +477,8 @@ body {
 }
 
 .ant-menu-inline-collapsed .ant-menu-item-group-title,
-.ql-snow .ql-toolbar input.ql-image[type="file"],
-.ql-snow.ql-toolbar input.ql-image[type="file"] {
+.ql-snow .ql-toolbar input.ql-image[type='file'],
+.ql-snow.ql-toolbar input.ql-image[type='file'] {
   display: none;
 }
 
@@ -616,7 +616,7 @@ ul.anticons-list li::after {
   text-align: center;
   opacity: 0;
   transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  content: "Copied!";
+  content: 'Copied!';
 }
 
 ul.anticons-list li.copied::after {
@@ -680,9 +680,9 @@ ul.anticons-list li.copied::after {
   color: #455560 !important;
   font-size: 14px !important;
   font-weight: 400 !important;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
 }
 
 .ql-container {
@@ -698,8 +698,8 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-container.ql-disabled .ql-editor ul[data-checked] > li::before,
-.ql-editor ul[data-checked="false"],
-.ql-editor ul[data-checked="true"] {
+.ql-editor ul[data-checked='false'],
+.ql-editor ul[data-checked='true'] {
   pointer-events: none;
 }
 
@@ -761,27 +761,27 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ul > li::before {
-  content: "\2022";
+  content: '\2022';
 }
 
-.ql-editor ul[data-checked="false"] > li *,
-.ql-editor ul[data-checked="true"] > li * {
+.ql-editor ul[data-checked='false'] > li *,
+.ql-editor ul[data-checked='true'] > li * {
   pointer-events: all;
 }
 
-.ql-editor ul[data-checked="false"] > li::before,
-.ql-editor ul[data-checked="true"] > li::before {
+.ql-editor ul[data-checked='false'] > li::before,
+.ql-editor ul[data-checked='true'] > li::before {
   color: #777;
   cursor: pointer;
   pointer-events: all;
 }
 
-.ql-editor ul[data-checked="true"] > li::before {
-  content: "\2611";
+.ql-editor ul[data-checked='true'] > li::before {
+  content: '\2611';
 }
 
-.ql-editor ul[data-checked="false"] > li::before {
-  content: "\2610";
+.ql-editor ul[data-checked='false'] > li::before {
+  content: '\2610';
 }
 
 .ql-editor li::before {
@@ -817,7 +817,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li:before {
-  content: counter(list-0, decimal) ". ";
+  content: counter(list-0, decimal) '. ';
 }
 
 .ql-editor ol li.ql-indent-1 {
@@ -826,7 +826,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-1:before {
-  content: counter(list-1, lower-alpha) ". ";
+  content: counter(list-1, lower-alpha) '. ';
 }
 
 .ql-editor ol li.ql-indent-2 {
@@ -835,7 +835,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-2:before {
-  content: counter(list-2, lower-roman) ". ";
+  content: counter(list-2, lower-roman) '. ';
 }
 
 .ql-editor ol li.ql-indent-3 {
@@ -844,7 +844,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-3:before {
-  content: counter(list-3, decimal) ". ";
+  content: counter(list-3, decimal) '. ';
 }
 
 .ql-editor ol li.ql-indent-4 {
@@ -853,7 +853,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-4:before {
-  content: counter(list-4, lower-alpha) ". ";
+  content: counter(list-4, lower-alpha) '. ';
 }
 
 .ql-editor ol li.ql-indent-5 {
@@ -862,7 +862,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-5:before {
-  content: counter(list-5, lower-roman) ". ";
+  content: counter(list-5, lower-roman) '. ';
 }
 
 .ql-editor ol li.ql-indent-6 {
@@ -871,7 +871,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-6:before {
-  content: counter(list-6, decimal) ". ";
+  content: counter(list-6, decimal) '. ';
 }
 
 .ql-editor ol li.ql-indent-7 {
@@ -880,7 +880,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-7:before {
-  content: counter(list-7, lower-alpha) ". ";
+  content: counter(list-7, lower-alpha) '. ';
 }
 
 .ql-editor ol li.ql-indent-8 {
@@ -889,7 +889,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-8:before {
-  content: counter(list-8, lower-roman) ". ";
+  content: counter(list-8, lower-roman) '. ';
 }
 
 .ql-editor ol li.ql-indent-9 {
@@ -897,7 +897,7 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-editor ol li.ql-indent-9:before {
-  content: counter(list-9, decimal) ". ";
+  content: counter(list-9, decimal) '. ';
 }
 
 .ql-editor .ql-indent-1:not(.ql-direction-rtl) {
@@ -1165,7 +1165,7 @@ ul.anticons-list li.copied::after {
 .ql-snow .ql-toolbar:after,
 .ql-snow.ql-toolbar:after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -1553,22 +1553,22 @@ ul.anticons-list li.copied::after {
 
 .ql-snow
   .ql-picker.ql-font
-  .ql-picker-item[data-label]:not([data-label=""])::before,
+  .ql-picker-item[data-label]:not([data-label=''])::before,
 .ql-snow
   .ql-picker.ql-font
-  .ql-picker-label[data-label]:not([data-label=""])::before,
+  .ql-picker-label[data-label]:not([data-label=''])::before,
 .ql-snow
   .ql-picker.ql-header
-  .ql-picker-item[data-label]:not([data-label=""])::before,
+  .ql-picker-item[data-label]:not([data-label=''])::before,
 .ql-snow
   .ql-picker.ql-header
-  .ql-picker-label[data-label]:not([data-label=""])::before,
+  .ql-picker-label[data-label]:not([data-label=''])::before,
 .ql-snow
   .ql-picker.ql-size
-  .ql-picker-item[data-label]:not([data-label=""])::before,
+  .ql-picker-item[data-label]:not([data-label=''])::before,
 .ql-snow
   .ql-picker.ql-size
-  .ql-picker-label[data-label]:not([data-label=""])::before {
+  .ql-picker-label[data-label]:not([data-label=''])::before {
   content: attr(data-label);
 }
 
@@ -1578,60 +1578,60 @@ ul.anticons-list li.copied::after {
 
 .ql-snow .ql-picker.ql-header .ql-picker-item::before,
 .ql-snow .ql-picker.ql-header .ql-picker-label::before {
-  content: "Normal";
+  content: 'Normal';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before {
-  content: "Heading 1";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='1']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='1']::before {
+  content: 'Heading 1';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before {
-  content: "Heading 2";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='2']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='2']::before {
+  content: 'Heading 2';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before {
-  content: "Heading 3";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='3']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='3']::before {
+  content: 'Heading 3';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before {
-  content: "Heading 4";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='4']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='4']::before {
+  content: 'Heading 4';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before {
-  content: "Heading 5";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='5']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='5']::before {
+  content: 'Heading 5';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before,
-.ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before {
-  content: "Heading 6";
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='6']::before,
+.ql-snow .ql-picker.ql-header .ql-picker-label[data-value='6']::before {
+  content: 'Heading 6';
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='1']::before {
   font-size: 2em;
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='2']::before {
   font-size: 1.5em;
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='3']::before {
   font-size: 1.17em;
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='4']::before {
   font-size: 1em;
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='5']::before {
   font-size: 0.83em;
 }
 
-.ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
+.ql-snow .ql-picker.ql-header .ql-picker-item[data-value='6']::before {
   font-size: 0.67em;
 }
 
@@ -1641,24 +1641,24 @@ ul.anticons-list li.copied::after {
 
 .ql-snow .ql-picker.ql-font .ql-picker-item::before,
 .ql-snow .ql-picker.ql-font .ql-picker-label::before {
-  content: "Sans Serif";
+  content: 'Sans Serif';
 }
 
-.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="serif"]::before,
-.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="serif"]::before {
-  content: "Serif";
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='serif']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='serif']::before {
+  content: 'Serif';
 }
 
-.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before,
-.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="monospace"]::before {
-  content: "Monospace";
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='monospace']::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value='monospace']::before {
+  content: 'Monospace';
 }
 
-.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="serif"]::before {
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='serif']::before {
   font-family: Georgia, Times New Roman, serif;
 }
 
-.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='monospace']::before {
   font-family: Monaco, Courier New, monospace;
 }
 
@@ -1668,33 +1668,33 @@ ul.anticons-list li.copied::after {
 
 .ql-snow .ql-picker.ql-size .ql-picker-item::before,
 .ql-snow .ql-picker.ql-size .ql-picker-label::before {
-  content: "Normal";
+  content: 'Normal';
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before,
-.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="small"]::before {
-  content: "Small";
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='small']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value='small']::before {
+  content: 'Small';
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before,
-.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="large"]::before {
-  content: "Large";
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='large']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value='large']::before {
+  content: 'Large';
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="huge"]::before,
-.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="huge"]::before {
-  content: "Huge";
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='huge']::before,
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value='huge']::before {
+  content: 'Huge';
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before {
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='small']::before {
   font-size: 10px;
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before {
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='large']::before {
   font-size: 18px;
 }
 
-.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="huge"]::before {
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='huge']::before {
   font-size: 32px;
 }
 
@@ -1709,7 +1709,7 @@ ul.anticons-list li.copied::after {
 .ql-toolbar.ql-snow {
   border: 1px solid #e6ebf1;
   box-sizing: border-box;
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   padding: 8px;
 }
 
@@ -1749,12 +1749,12 @@ ul.anticons-list li.copied::after {
 }
 
 .ql-snow .ql-tooltip::before {
-  content: "Visit URL:";
+  content: 'Visit URL:';
   line-height: 26px;
   margin-right: 8px;
 }
 
-.ql-snow .ql-tooltip input[type="text"] {
+.ql-snow .ql-tooltip input[type='text'] {
   display: none;
   border: 1px solid #e6ebf1;
   font-size: 13px;
@@ -1774,13 +1774,13 @@ ul.anticons-list li.copied::after {
 
 .ql-snow .ql-tooltip a.ql-action::after {
   border-right: 1px solid #e6ebf1;
-  content: "Edit";
+  content: 'Edit';
   margin-left: 16px;
   padding-right: 8px;
 }
 
 .ql-snow .ql-tooltip a.ql-remove::before {
-  content: "Remove";
+  content: 'Remove';
   margin-left: 8px;
 }
 
@@ -1788,26 +1788,26 @@ ul.anticons-list li.copied::after {
   line-height: 26px;
 }
 
-.ql-snow .ql-tooltip.ql-editing input[type="text"] {
+.ql-snow .ql-tooltip.ql-editing input[type='text'] {
   display: inline-block;
 }
 
 .ql-snow .ql-tooltip.ql-editing a.ql-action::after {
   border-right: 0;
-  content: "Save";
+  content: 'Save';
   padding-right: 0;
 }
 
-.ql-snow .ql-tooltip[data-mode="link"]::before {
-  content: "Enter link:";
+.ql-snow .ql-tooltip[data-mode='link']::before {
+  content: 'Enter link:';
 }
 
-.ql-snow .ql-tooltip[data-mode="formula"]::before {
-  content: "Enter formula:";
+.ql-snow .ql-tooltip[data-mode='formula']::before {
+  content: 'Enter formula:';
 }
 
-.ql-snow .ql-tooltip[data-mode="video"]::before {
-  content: "Enter video:";
+.ql-snow .ql-tooltip[data-mode='video']::before {
+  content: 'Enter video:';
 }
 
 .ql-container.ql-snow,
@@ -2962,7 +2962,7 @@ button.bg-dark:hover {
 .clearfix::after,
 .embed-responsive::before {
   display: block;
-  content: "";
+  content: '';
 }
 
 .embed-responsive .embed-responsive-item,
@@ -7516,7 +7516,7 @@ button.bg-dark:hover {
 }
 
 .text-monospace {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
     monospace !important;
 }
 

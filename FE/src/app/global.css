@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 main {
   min-height: calc(100vh - 336px);

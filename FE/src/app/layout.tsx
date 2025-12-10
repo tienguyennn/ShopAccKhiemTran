@@ -1,15 +1,19 @@
-"use client";
-import React from "react";
-import styled from "@emotion/styled";
-import "./layout.css";
-import "@/app/assets/css/global.css";
-import { Providers } from "@/store/providers";
-import { Inter } from "next/font/google";
+'use client';
+import React from 'react';
+import styled from '@emotion/styled';
+import './layout.css';
+import '@/app/assets/css/global.css';
+import { Providers } from '@/store/providers';
+import { Saira } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const saira = Saira({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-saira',
+});
 
 const AuthContainer = styled.div(() => ({
-  minHeight: "100vh",
+  minHeight: '100vh',
 }));
 
 export default function RootLayout({
@@ -18,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" className={inter.variable}>
+    <html lang="vi" className={saira.variable}>
       <body>
         <Providers>
           <AuthContainer>{children}</AuthContainer>
