@@ -26,6 +26,7 @@ namespace N.Model
         public DbSet<RoleOperation> RoleOperation { get; set; }
         public DbSet<Notification> Notification { get; set; }
         public DbSet<Department> Department { get; set; }
+        public DbSet<Account> Account { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
