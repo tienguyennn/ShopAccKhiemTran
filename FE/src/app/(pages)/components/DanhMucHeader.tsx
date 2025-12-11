@@ -1,14 +1,14 @@
-interface SlideWrapperProps {
+interface DanhMucHeaderProps {
   img: string;
   className?: string;
   link?: string;
 }
 
-export default function SlideWrapper({
+export default function DanhMucHeader({
   img,
   className = '',
   link = '',
-}: SlideWrapperProps) {
+}: DanhMucHeaderProps) {
   const Wrapper: any = link ? 'a' : 'div';
 
   return (

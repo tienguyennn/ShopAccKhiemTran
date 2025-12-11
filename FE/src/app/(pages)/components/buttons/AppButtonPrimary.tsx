@@ -1,14 +1,11 @@
 import React from 'react';
 
-interface ButtonLoginProps {
-  text?: string;
+interface AppButtonProps {
+  children?: React.ReactNode;
   onClick?: () => void;
 }
 
-const ButtonLogin: React.FC<ButtonLoginProps> = ({
-  text = 'Đăng Nhập',
-  onClick,
-}) => {
+const AppButtonPrimary: React.FC<AppButtonProps> = ({ children, onClick }) => {
   return (
     <button
       onClick={onClick}
@@ -25,7 +22,7 @@ const ButtonLogin: React.FC<ButtonLoginProps> = ({
         transition
         bg-[#890000E8]
         [clip-path:polygon(0%_80%,6%_100%,88%_100%,100%_20%,94%_0%,12%_0%)]
-        hover:bg-[#890000E8]
+        hover:bg-red-500
         before:content-['']
         before:absolute
         before:inset-0
@@ -33,13 +30,14 @@ const ButtonLogin: React.FC<ButtonLoginProps> = ({
         before:[clip-path:polygon(0%_80%,6%_100%,88%_100%,100%_20%,94%_0%,12%_0%)]
         before:-translate-x-0.5
         before:-translate-y-0.5
+        w-full
       "
     >
       <span className="relative -translate-x-[2px] -translate-y-[2px]">
-        {text}
+        {children}
       </span>
     </button>
   );
 };
 
-export default ButtonLogin;
+export default AppButtonPrimary;

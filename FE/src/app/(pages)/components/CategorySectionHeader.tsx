@@ -6,7 +6,7 @@ interface CategorySectionHeaderProps {
   icon?: string;
   img?: string;
   className?: string;
-  linkColor?: string;
+  linkComponent?: React.ReactNode;
 }
 
 const CategorySectionHeader: React.FC<CategorySectionHeaderProps> = ({
@@ -15,7 +15,7 @@ const CategorySectionHeader: React.FC<CategorySectionHeaderProps> = ({
   icon,
   img = '',
   className = '',
-  linkColor = 'text-green-400',
+  linkComponent,
 }) => {
   return (
     <div
@@ -34,16 +34,13 @@ const CategorySectionHeader: React.FC<CategorySectionHeaderProps> = ({
         />
       )}
       <div></div>
-      <div className="relative flex items-center gap-2 z-10 mt-3">
-        {icon && <img src={icon} className="h-8 w-8 object-contain" />}
-        <div className="text-2xl font-bold text-white uppercase">{title}</div>
+      <div className="relative flex items-center gap-2 z-10 mt-4">
+        {icon && <img src={icon} className="h-14 w-14 object-contain" />}
+        <div className="text-4xl font-bold text-white uppercase">{title}</div>
       </div>
-      <a
-        href={link}
-        className={`relative z-10 hover:underline text-sm ${linkColor}`}
-      >
-        Xem tất cả →
-      </a>
+      {linkComponent && (
+        <div className="relative z-10 mt-2">{linkComponent}</div>
+      )}
     </div>
   );
 };
